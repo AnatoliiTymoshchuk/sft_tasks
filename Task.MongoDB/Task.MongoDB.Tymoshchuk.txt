@@ -1,0 +1,55 @@
+//a.Select all universities. Show name and accreditation 
+db.universities.find({}, {name:1, accreditation:1})
+
+//b.Select university without coordinates. Show only Address information. 
+db.universities.find({"address.coordinates" : {$exists: false}}, { address:1},  {_id:0})  
+
+//c.Select university with State = “MA” and zipcode not equal to “27897”. Show id, name, state, zipcode 
+db.universities.find({"address.state" : "MA", "address.zipcode" : {$nin: ["27897"]}}, { id : 1, name:1, "address.state":1, "address.zipcode":1})
+
+//d.Select users with Date of Birth more than (>) 1980 year and less than current date. Show only Date of Birth
+db.users.find({DateOfBirth : {$gte: ISODate("1980-01-01T00:00:00.000Z"), $lte: new Date()}}, {DateOfBirth : 1, _id : 0})
+
+//e.Change course name and delete all other information (university_id, users) for course, which contains only students. 
+db.getCollection('courses').find({})
+db.courses.update({'users.role' : {$nin : ["instructor"]}}, {$set : { 'name' : 'NewCourse'}}, {multi : true})
+db.getCollection('courses').find({})
+db.courses.update({'users.role' : {$nin : ["instructor"]}}, {$unset : {'university_id' : 1, 'users' : 1}}, {multi : true})
+db.getCollection('courses').find({})
+
+//f.Select courses with max number of users. Show course name, user roles, amount of users. 
+db.courses.find({},{_id:0, name:1, "users.role":1}).sort({users: -1}).limit(1)
+
+//g.*Select user with the longest MiddleName. Show _id, MiddleName, length. 
+db.users.aggregate([{$project:{"MiddleName": 1,
+            "lenght": {$strLenCP: "$MiddleName" }}},
+            {$match: {MiddleName: {$exists:true}}},
+            {$sort: {"lenght":-1}},
+            {$limit: 2}])
+            
+            
+            
+            
+//h.Update only the course name, which contains every user role. 
+db.getCollection('courses').find({})
+db.courses.updateMany({$and :[{ "users.role": "instructor"},{"users.role": "admin"},{"users.role": "student"}]},{$set: {"name" : "updated"}}, {multi:true})
+
+//i.Replace User document with Name = “Pavel” (insert your values
+//and pay attention for the new structure. Use .find() before replacement and compare values after)
+db.getCollection('users').find({})
+db.users.replaceOne(				  
+	{ FirstName: "Pavel" },
+	{
+          FirstName:"Anatolii" ,
+          LastName :"Tymoshchuk",
+	}
+)
+db.getCollection('users').find({})
+
+//j.	Delete user which has only LastName by 2 ways (use delete()and remove() commands)(i.e. MiddleName, Date of Birth, First Name are null).
+db.getCollection('users').find({})
+db.users.deleteOne( {"FirstName": {$exists: false}}, {"MiddleName": {$exists: false}}, {"DateOfBirth": {$exists: false}}, {"LastName": {$exists: true}})
+db.getCollection('users').find({})    
+db.getCollection('users2').find({})    
+db.users2.remove( {"FirstName": {$exists: false}}, {"MiddleName": {$exists: false}}, {"DateOfBirth": {$exists: false}}, {"LastName": {$exists: true}})
+db.getCollection('users2').find({})
