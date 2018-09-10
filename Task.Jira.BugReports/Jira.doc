@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://anatoliitymoshchuk.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-3]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-3">The program closes without saving the data after trying to cancel the closing of the program</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10002-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    8.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Irreversible session loss and all unsaved data loss on client crash after pressed on the button "Cancel" in the drop-down dialog box, after click on the "Exit" field from "File" drop-down list</p>
+
+<p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Enter "qwerty" in the input field</li>
+	<li>Click on the "File" field</li>
+	<li>Click on the "Save" field in drop-down list</li>
+	<li>Click on the "Cancel" button in the drop-down dialog box</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should continue working after clicking on the "Cancel" button</p>
+
+<p><b>Actual result:</b> The program closes without saving data</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10000"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10000"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> Your summary is too long. A summary should be concise, easy to read and easy to distinguish from other bugs. The actual result is better for summary here. Just add a  specific condition (Summary still should answer well-known 3 questions<img class="emoticon" src="/images/icons/emoticons/smile.png" height="16" width="16" align="absmiddle" alt="" border="0"/>). You can add all notes and specifics into a description.<br/>
+Also, some information is missed. What important information can you add here, considering that it is the desktop application?</p>
+
+<p>P.S.   Usually 'Steps to Reproduce' go first<img class="emoticon" src="/images/icons/emoticons/smile.png" height="16" width="16" align="absmiddle" alt="" border="0"/></p>
+
+        </td></tr>
+                <tr id="comment-header-10009"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="admin" id="word_commented_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10009"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko" class="user-hover" rel="Olha_Kryvoruchko">Olha</a> Please check the changes</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-10]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-10">The program crashes if undo the last action with empty checkboxes in the &quot;Symbols&quot; area</a>
+            <span class="subText">
+               Created: 05/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 05/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    17.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Click on the "Add to List" button</li>
+	<li>Uncheck the checkboxes</li>
+	<li>Press "Edit"</li>
+	<li>Click on the "Undo" in drop-down list</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should cancel the last action after clicking 'Undo' option from 'Edit' menu</p>
+
+<p><b>Actual result:</b> The program crashes if undo the last action with empty checkboxes in the "Symbols" area</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10002"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10002"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> There is a good practice to write 'Expected Result' with 'should'.<br/>
+E.g. The program should cancel the last action after clicking 'Undo' option from 'Edit' menu</p>
+
+<p>Will should go with an infinitive: <br/>
+the program will canceled -&gt; the program will cancel</p>
+
+        </td></tr>
+                <tr id="comment-header-10010"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="admin" id="word_commented_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10010"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko" class="user-hover" rel="Olha_Kryvoruchko">Olha</a> Please check the changes</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-9]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-9">The last record added to the list is deleted after opening the list from the file</a>
+            <span class="subText">
+               Created: 05/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 05/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    15.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Add "123" to the list</li>
+	<li>Add "456" to the list</li>
+	<li>Save file</li>
+	<li>Close program</li>
+	<li>Open the program ListBox.exe</li>
+	<li>Click on the menu "File"</li>
+	<li>Click on the "Open" in drop-down list</li>
+	<li>Select a previously saved list and click on the button "Open"</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should open a previously saved list</p>
+
+<p><b>Actual result:</b> The list has been opened without a last record</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10003"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10003"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> Passive voice is better here: <b>Actual result:</b> The list opens without adding the last record</p>
+        </td></tr>
+                <tr id="comment-header-10011"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="admin" id="word_commented_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10011"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko" class="user-hover" rel="Olha_Kryvoruchko">Olha</a> Please check the changes</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-6]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-6">Wrong algorithm for descending sorting numbers in the &quot;Sorting order&quot; block</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 05/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10005-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    2018-09-10_03h24_38.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Enter "aa"</li>
+	<li>Click on the button "Add to List"</li>
+	<li>Enter "ab"</li>
+	<li>Click on the button "Add to List"</li>
+	<li>Enter "ac"</li>
+	<li>Click on the button "Add to List"</li>
+	<li>Click on the radio button "Descending"</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should sort the list in descending order after clicking on the "Descending" radio button</p>
+
+<p><b>Actual result:</b> The last two values are swapped</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10004"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10004"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> Please find out what is alphabetical order and rewrite this issue if it still is. </p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-4]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-4">It is impossible to clear a list with one item</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 04/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10003-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    13.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Enter "qwerty"</li>
+	<li>Click on the "Add to List" button</li>
+	<li>Click on the "Clear List" button</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should clear the list after clicking on the “Clear list” button</p>
+
+<p><b>Actual result:</b> The "Clear list" button is not active if the list consists of less than 2 items</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-7]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-7">Entering the dollar sign in the input field</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 05/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10006-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    7.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Enter dollar sign in the input field</li>
+	<li>Click on the "Add to List" button</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should accept only numbers and Latin letters</p>
+
+<p><b>Actual result:</b> In the input field, it is possible to enter the dollar sign</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10005"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10005"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> Иe more careful with the construction of the sentence:<br/>
+In the input field is possible enter only numbers and Latin letters -&gt; In the input field, <b>it</b> is possible <b>to</b> enter only numbers and Latin letters</p>
+        </td></tr>
+                <tr id="comment-header-10008"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="admin" id="word_commented_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10008"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko" class="user-hover" rel="Olha_Kryvoruchko">Olha</a> Thanks for the advice, I'll keep it in mind.</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-2]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-2">Adding the number &quot;10,000&quot; to the list with a limit of &quot;9999&quot;</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10001-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    6.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Click on "Numeric" checkbox</li>
+	<li>Enter "10000"</li>
+	<li>Click on the "Add to List" button</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should not add to the list a number outside the range of data from 0 to 9999</p>
+
+<p><b>Actual result:</b> The number 10,000 has been added to the list</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-1]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-1">Spelling error in the word &quot;Edjt&quot; in the main menu in the program window</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 04/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10000-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    1.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Look at "Edit" in main menu</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should display the word "Edit" without errors in the main menu of the program window</p>
+
+<p><b>Actual result:</b> A grammatical error has been made in the word "Edit", instead of the word "Edit", the word "Edjt" is output.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10001"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10001"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> Such type of error is called 'spelling error'</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [LH-8]&nbsp;<a href="https://anatoliitymoshchuk.atlassian.net/browse/LH-8">Incorrect work of the context-sensitive help when clicking on the question mark in the head of the window</a>
+            <span class="subText">
+               Created: 04/Sep/18                   &nbsp;Updated: 10/Sep/18
+
+                                    &nbsp;Due: 05/Sep/18
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Progress</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://anatoliitymoshchuk.atlassian.net/secure/BrowseProject.jspa?id=10000">ListBoxer.HomeTask</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_reporter_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="admin" id="word_assignee_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows 10 Enterprise x64<br/>
+ListBoxer ver 1.98</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://anatoliitymoshchuk.atlassian.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    8.mp4 &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+</table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Steps to reproduce:</b></p>
+
+<ol>
+	<li>Open the program ListBox.exe</li>
+	<li>Click on the question mark in the head of the window</li>
+	<li>Сlick on the "Add to List" button</li>
+</ol>
+
+
+<p><b>Expected result:</b> The program should give the context-sensitive help after clicking on the question mark</p>
+
+<p><b>Actual result:</b> After clicking on the question mark, a browser opens with a link: <a href="https://support.microsoft.com/uk-ua/help/917607/error-opening-help-in-windows-based-programs-feature-not-included-or-h" class="external-link" rel="nofollow">https://support.microsoft.com/uk-ua/help/917607/error-opening-help-in-windows-based-programs-feature-not-included-or-h</a></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10006"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="Olha_Kryvoruchko" id="word_commented_Olha_Kryvoruchko" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko">Olha</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10006"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin" class="user-hover" rel="admin">Anatolii Tymoshchuk</a> It seems, 'Actual Result' is not full. It ends with 'or'</p>
+        </td></tr>
+                <tr id="comment-header-10007"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="admin" id="word_commented_admin" href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=admin">Anatolii Tymoshchuk</a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Sep/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10007"><td bgcolor="#ffffff">
+            <p><a href="https://anatoliitymoshchuk.atlassian.net/secure/ViewProfile.jspa?name=Olha_Kryvoruchko" class="user-hover" rel="Olha_Kryvoruchko">Olha</a>  It's full. The link was not copied correctly</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Mon Sep 10 12:00:18 UTC 2018 by Anatolii Tymoshchuk using Jira 1001.0.0-SNAPSHOT#100091-sha1:8b1552e5e61a1c5cfcb5b3a15a56bddf1b1b7a56.
+
+</body>
+</html>
