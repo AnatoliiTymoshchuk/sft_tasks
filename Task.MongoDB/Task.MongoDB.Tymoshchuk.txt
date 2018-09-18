@@ -10,11 +10,12 @@ db.universities.find({"address.state" : "MA", "address.zipcode" : {$nin: ["27897
 //d.Select users with Date of Birth more than (>) 1980 year and less than current date. Show only Date of Birth
 db.users.find({DateOfBirth : {$gte: ISODate("1980-01-01T00:00:00.000Z"), $lte: new Date()}}, {DateOfBirth : 1, _id : 0})
 
+
 //e.Change course name and delete all other information (university_id, users) for course, which contains only students. 
 db.getCollection('courses').find({})
-db.courses.update({'users.role' : {$nin : ["instructor"]}}, {$set : { 'name' : 'NewCourse'}}, {multi : true})
+db.courses.update({'users.role' : {$nin : ["instructor", "admin"]}}, {$set : { 'name' : 'NewCourse'}}, {multi : true})
 db.getCollection('courses').find({})
-db.courses.update({'users.role' : {$nin : ["instructor"]}}, {$unset : {'university_id' : 1, 'users' : 1}}, {multi : true})
+db.courses.update({'users.role' : {$nin : ["instructor", "admin"]}}, {$unset : {'university_id:' : 1, 'users' : 1}}, {multi : true})
 db.getCollection('courses').find({})
 
 //f.Select courses with max number of users. Show course name, user roles, amount of users. 
