@@ -57,12 +57,14 @@ GROUP BY dbo.Suppliers.CompanyName
 
 --6)Get the top five product categories with the list of the most buyable products in European countries.
 
-SELECT top 5 Suppliers.Country, Products.CategoryID, Products.UnitsOnOrder
-FROM Products
-INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
-WHERE Suppliers.Country IN ('Sweden', 'Finland', 'UK', 'Italy', 'Netherlands', 'Norway', 'France', 'Germany', 'Denmark', 'Spain')
-ORDER BY Products.UnitsOnOrder DESC
-
+SELECT DISTINCT top 5 C.CategoryName, P.ProductName, MAX(OD.Quantity) as Quantity, O.ShipCountry
+From Categories C 
+Inner Join Products P ON C.CategoryID=P.CategoryID
+INNER JOIN  [Order Details] OD ON P.ProductID=OD.ProductID
+INNER JOIN Orders O ON OD.OrderID=O.OrderID
+Where O.ShipCountry IN ('Sweden', 'Finland', 'UK', 'Italy', 'Netherlands', 'Norway', 'France', 'Denmark', 'Spain', 'Germany')
+Group by C.CategoryName, P.ProductName, O.ShipCountry
+Order by MAX(OD.Quantity) Desc
 
 --7)Get the First Name, Last Name and Title of Managers and their subordinates.
 
@@ -72,8 +74,10 @@ WHERE Title LIKE '%Manager%'
 OR ReportsTo = (SELECT EmployeeID FROM Employees WHERE Title LIKE '%Manager%')
 
 --The next queries are optional:
---	Get the list of data about employees: First Name, Last Name, Title, HireDate who was hired this year.
+--?	Get the list of data about employees: First Name, Last Name, Title, HireDate who was hired this year.
+
 
 SELECT FirstName, LastName, Title, HireDate
 FROM dbo.Employees
-WHERE HireDate BETWEEN '2018.01.01 00:00:00.000' AND '2018.12.31 23:59:59.999'
+WHERE HireDate BETWEEN (Select DATEADD(yy, DATEDIFF(yy, 0, GETDATE()), 0)) AND (SELECT  DATEADD(MS, -2, DATEADD(yy, DATEDIFF(yy, 0, GETDATE()) + 1, 0)))
+--**************updated***********************
