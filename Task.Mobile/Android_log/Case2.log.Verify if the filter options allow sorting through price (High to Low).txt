@@ -1,0 +1,99 @@
+09-25 20:56:02.475: D/ClClient(16844): Not sending keepalive.  Current connection state=STOPPED
+09-25 20:56:02.674: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:56:02.678: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:56:03.661: I/subsystem_ramdump(32588): Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-25 20:56:03.661: I/subsystem_ramdump(32588): [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+09-25 20:56:03.661: I/subsystem_ramdump(32588): [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-25 20:56:03.661: I/subsystem_ramdump(32588): [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-25 20:56:03.662: E/subsystem_ramdump(32588): Directory /sdcard/ramdump does not exist
+09-25 20:56:03.662: I/subsystem_ramdump(32588): Attemping to create /sdcard/ramdump
+09-25 20:56:03.662: E/subsystem_ramdump(32588): Unable to create /sdcard/ramdump
+09-25 20:56:03.662: E/subsystem_ramdump(32588): Unable to create /sdcard/ramdump
+09-25 20:56:03.662: E/subsystem_ramdump(32588): Failed to initialize ramdump
+09-25 20:56:03.649: W/subsystem_ramdu(32588): type=1400 audit(0.0:21445): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:56:03.649: W/subsystem_ramdu(32588): type=1400 audit(0.0:21446): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:56:03.696: D/BatteryService(1582): /data/anr/adb_enable file.exists() =  false
+09-25 20:56:03.696: D/BatteryService(1582): mBatteryProps.batteryTemperature = 335,,mBatteryProps.batteryHealth=2
+09-25 20:56:03.696: D/BatteryService(1582): mBatteryProps.batteryTemperature = 335,,mBatteryProps.batteryHealth=2
+09-25 20:56:03.699: W/QCNEJ(2033): |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+09-25 20:56:03.700: D/BatteryController(1812): action=android.intent.action.BATTERY_CHANGED; mCharging=true
+09-25 20:56:03.702: I/BatteryInfoReceiver(3590): ACTION_BATTERY_CHANGED
+09-25 20:56:04.287: I/chromium(30941): [INFO:CONSOLE(1)] "Manifest: Line: 1, column: 1, Unexpected token.", source: https://m.mobilluck.com.ua/v2/manifest.json (1)
+09-25 20:56:05.086: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+09-25 20:56:05.088: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+09-25 20:56:05.088: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+09-25 20:56:05.089: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+09-25 20:56:05.089: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+09-25 20:56:05.090: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+09-25 20:56:05.091: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+09-25 20:56:05.092: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): Exception when calling getInstantAppLaunchData
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): Dv: 19500: Not an instant app
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at Gz.a(SourceFile:3)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at Gr.a(SourceFile:7)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at com.google.android.gms.common.api.internal.BasePendingResult.c(SourceFile:136)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at com.google.android.gms.common.api.internal.BasePendingResult.a(SourceFile:97)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at KY.a(SourceFile:2)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at KT.onTransact(SourceFile:32)
+09-25 20:56:05.596: E/cr_InstantAppsHandlerI(30941): 	at android.os.Binder.execTransact(Binder.java:567)
+09-25 20:56:05.685: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:56:05.689: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:56:06.057: W/cr_SpanAutocomplete(30941): Did not notify - ignored.
+09-25 20:56:07.263: I/chromium(30941): [INFO:CONSOLE(1)] "Manifest: Line: 1, column: 1, Unexpected token.", source: https://m.mobilluck.com.ua/v2/manifest.json (1)
+09-25 20:56:08.697: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:56:08.699: I/subsystem_ramdump(32594): Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-25 20:56:08.699: I/subsystem_ramdump(32594): [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+09-25 20:56:08.699: I/subsystem_ramdump(32594): [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-25 20:56:08.699: I/subsystem_ramdump(32594): [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-25 20:56:08.699: E/subsystem_ramdump(32594): Directory /sdcard/ramdump does not exist
+09-25 20:56:08.699: I/subsystem_ramdump(32594): Attemping to create /sdcard/ramdump
+09-25 20:56:08.699: E/subsystem_ramdump(32594): Unable to create /sdcard/ramdump
+09-25 20:56:08.699: E/subsystem_ramdump(32594): Unable to create /sdcard/ramdump
+09-25 20:56:08.699: E/subsystem_ramdump(32594): Failed to initialize ramdump
+09-25 20:56:08.689: W/subsystem_ramdu(32594): type=1400 audit(0.0:21447): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:56:08.689: W/subsystem_ramdu(32594): type=1400 audit(0.0:21448): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:56:08.714: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:56:09.464: D/ThermalEngine(709): sensor_wait: xo_therm Wait done.
+09-25 20:56:09.466: D/ThermalEngine(709): sensor_monitor: xo_therm Reading 35000 .
+09-25 20:56:09.466: I/ThermalEngine(709): Sensor:xo_therm:35000 mC
+09-25 20:56:09.466: D/ThermalEngine(709): update_active_thresh: xo_therm Active(1), Hi(1) 39000, Lo(0) -2147483648, Interval(1) 10000
+09-25 20:56:09.466: D/ThermalEngine(709): sensor_monitor: xo_therm Sensor wait.
+09-25 20:56:09.466: D/ThermalEngine(709): sensor_wait: xo_therm Wait start. 10000ms
+09-25 20:56:10.086: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+09-25 20:56:10.087: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+09-25 20:56:10.088: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+09-25 20:56:10.088: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+09-25 20:56:10.089: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+09-25 20:56:10.089: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+09-25 20:56:10.090: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+09-25 20:56:10.091: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+09-25 20:56:10.306: E/WakeLock(2576): GCM_HB_ALARM release without a matched acquire!
+09-25 20:56:10.443: W/ActivityManager(1582): Background start not allowed: service Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.apps.translate/com.firebase.jobdispatcher.GooglePlayReceiver (has extras) } to com.google.android.apps.translate/com.firebase.jobdispatcher.GooglePlayReceiver from pid=2576 uid=10017 pkg=com.google.android.gms
+09-25 20:56:10.443: E/NetworkScheduler.TED(2576): Couldn't start service: Intent { act=com.google.android.gms.gcm.ACTION_TASK_READY cmp=com.google.android.apps.translate/com.firebase.jobdispatcher.GooglePlayReceiver (has extras) }
+09-25 20:56:10.491: E/NetworkScheduler(2576): Unknown result code received: 4
+09-25 20:56:10.631: E/NetworkScheduler(2576): Invalid component specified.
+09-25 20:56:10.836: W/Conscrypt(2576): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+09-25 20:56:10.836: W/Conscrypt(2576): 	at java.lang.reflect.Method.invoke(Native Method)
+09-25 20:56:10.836: W/Conscrypt(2576): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@13280020@13.2.80 (040406-211705629):13)
+09-25 20:56:10.836: W/Conscrypt(2576): Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+09-25 20:56:10.836: W/Conscrypt(2576): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+09-25 20:56:10.836: W/Conscrypt(2576): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:157)
+09-25 20:56:10.932: W/Conscrypt(2576): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+09-25 20:56:10.932: W/Conscrypt(2576): 	at java.lang.reflect.Method.invoke(Native Method)
+09-25 20:56:10.932: W/Conscrypt(2576): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@13280020@13.2.80 (040406-211705629):13)
+09-25 20:56:10.932: W/Conscrypt(2576): Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+09-25 20:56:10.932: W/Conscrypt(2576): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+09-25 20:56:10.932: W/Conscrypt(2576): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:157)
+09-25 20:56:11.164: W/ChimeraUtils(2576): Non Chimera context
+09-25 20:56:11.449: W/Conscrypt(2576): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+09-25 20:56:11.450: W/Conscrypt(2576): 	at java.lang.reflect.Method.invoke(Native Method)
+09-25 20:56:11.450: W/Conscrypt(2576): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@13280020@13.2.80 (040406-211705629):13)
+09-25 20:56:11.450: W/Conscrypt(2576): Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+09-25 20:56:11.451: W/Conscrypt(2576): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+09-25 20:56:11.451: W/Conscrypt(2576): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:157)
+09-25 20:56:11.480: W/Conscrypt(2576): Could not set socket write timeout: java.lang.reflect.InvocationTargetException
+09-25 20:56:11.481: W/Conscrypt(2576): 	at java.lang.reflect.Method.invoke(Native Method)
+09-25 20:56:11.481: W/Conscrypt(2576): 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@13280020@13.2.80 (040406-211705629):13)
+09-25 20:56:11.481: W/Conscrypt(2576): Caused by: android.system.ErrnoException: setsockopt failed: EBADF (Bad file descriptor)
+09-25 20:56:11.481: W/Conscrypt(2576): 	at libcore.io.Posix.setsockoptTimeval(Native Method)
+09-25 20:56:11.481: W/Conscrypt(2576): 	at libcore.io.ForwardingOs.setsockoptTimeval(ForwardingOs.java:157)

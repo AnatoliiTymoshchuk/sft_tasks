@@ -1,0 +1,119 @@
+09-25 20:50:47.823: E/ANDR-PERF-MPCTL(475): Invalid profile no. 0, total profiles 0 only
+09-25 20:50:48.018: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:50:48.036: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:50:49.383: D/ThermalEngine(709): sensor_wait: xo_therm Wait done.
+09-25 20:50:49.385: D/ThermalEngine(709): sensor_monitor: xo_therm Reading 36000 .
+09-25 20:50:49.385: I/ThermalEngine(709): Sensor:xo_therm:36000 mC
+09-25 20:50:49.385: D/ThermalEngine(709): update_active_thresh: xo_therm Active(1), Hi(1) 39000, Lo(0) -2147483648, Interval(1) 10000
+09-25 20:50:49.385: D/ThermalEngine(709): sensor_monitor: xo_therm Sensor wait.
+09-25 20:50:49.385: D/ThermalEngine(709): sensor_wait: xo_therm Wait start. 10000ms
+09-25 20:50:49.522: I/subsystem_ramdump(32232): Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-25 20:50:49.522: I/subsystem_ramdump(32232): [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+09-25 20:50:49.522: I/subsystem_ramdump(32232): [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-25 20:50:49.522: I/subsystem_ramdump(32232): [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-25 20:50:49.523: E/subsystem_ramdump(32232): Directory /sdcard/ramdump does not exist
+09-25 20:50:49.523: I/subsystem_ramdump(32232): Attemping to create /sdcard/ramdump
+09-25 20:50:49.523: E/subsystem_ramdump(32232): Unable to create /sdcard/ramdump
+09-25 20:50:49.523: E/subsystem_ramdump(32232): Unable to create /sdcard/ramdump
+09-25 20:50:49.523: E/subsystem_ramdump(32232): Failed to initialize ramdump
+09-25 20:50:49.509: W/subsystem_ramdu(32232): type=1400 audit(0.0:21319): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:49.509: W/subsystem_ramdu(32232): type=1400 audit(0.0:21320): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:50.005: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+09-25 20:50:50.006: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+09-25 20:50:50.007: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+09-25 20:50:50.008: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+09-25 20:50:50.008: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+09-25 20:50:50.009: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+09-25 20:50:50.009: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+09-25 20:50:50.010: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+09-25 20:50:51.043: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:50:51.046: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:50:52.175: I/chromium(30941): [INFO:CONSOLE(1)] "Manifest: Line: 1, column: 1, Unexpected token.", source: https://m.mobilluck.com.ua/v2/manifest.json (1)
+09-25 20:50:52.475: D/ClClient(16844): Not sending keepalive.  Current connection state=STOPPED
+09-25 20:50:53.561: I/subsystem_ramdump(32236): Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-25 20:50:53.561: I/subsystem_ramdump(32236): [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+09-25 20:50:53.561: I/subsystem_ramdump(32236): [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-25 20:50:53.549: W/subsystem_ramdu(32236): type=1400 audit(0.0:21321): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:53.561: I/subsystem_ramdump(32236): [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-25 20:50:53.562: E/subsystem_ramdump(32236): Directory /sdcard/ramdump does not exist
+09-25 20:50:53.562: I/subsystem_ramdump(32236): Attemping to create /sdcard/ramdump
+09-25 20:50:53.562: E/subsystem_ramdump(32236): Unable to create /sdcard/ramdump
+09-25 20:50:53.562: E/subsystem_ramdump(32236): Unable to create /sdcard/ramdump
+09-25 20:50:53.562: E/subsystem_ramdump(32236): Failed to initialize ramdump
+09-25 20:50:53.549: W/subsystem_ramdu(32236): type=1400 audit(0.0:21322): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:53.989: V/BoostFramework(30941): BoostFramework() : mPerf = com.qualcomm.qti.Performance@5d469de
+09-25 20:50:53.989: V/BoostFramework(30941): BoostFramework() : mPerf = com.qualcomm.qti.Performance@366e7bf
+09-25 20:50:53.995: V/BoostFramework(30941): BoostFramework() : mPerf = com.qualcomm.qti.Performance@dac40db
+09-25 20:50:53.995: V/BoostFramework(30941): BoostFramework() : mPerf = com.qualcomm.qti.Performance@27c8778
+09-25 20:50:54.052: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:50:54.070: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:50:54.204: W/cr_Autocomplete(30941): stopping autocomplete.
+09-25 20:50:54.228: D/PhoneStatusBar(1812): disable: 0x00000200 -> 0x00000000 (diff: 0x00000200)
+09-25 20:50:54.228: D/PhoneStatusBar(1812): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+09-25 20:50:54.229: D/PhoneStatusBar/NavigationBarView(1812): setDisabledFlags back:false home:false recent:false
+09-25 20:50:54.229: D/SimpleStatusBar(1812): updateDarkMode() mDarkMode=false
+09-25 20:50:54.229: D/SimpleStatusBar(1812): updateDarkMode() mIconsDarkArea=null
+09-25 20:50:54.231: D/SimpleStatusBar(1812): updateBatteryChargingIcon() mQuickCharging=false; mDarkMode=false
+09-25 20:50:55.026: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+09-25 20:50:55.027: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+09-25 20:50:55.028: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+09-25 20:50:55.028: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+09-25 20:50:55.029: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+09-25 20:50:55.029: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+09-25 20:50:55.030: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+09-25 20:50:55.030: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+09-25 20:50:56.589: D/PhoneStatusBar(1812): disable: 0x00000000 -> 0x00000200 (diff: 0x00000200)
+09-25 20:50:56.589: D/PhoneStatusBar(1812): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+09-25 20:50:56.590: D/PhoneStatusBar/NavigationBarView(1812): setDisabledFlags back:false home:false recent:false
+09-25 20:50:56.590: D/SimpleStatusBar(1812): updateDarkMode() mDarkMode=true
+09-25 20:50:56.590: D/SimpleStatusBar(1812): updateDarkMode() mIconsDarkArea=null
+09-25 20:50:56.594: D/SimpleStatusBar(1812): updateBatteryChargingIcon() mQuickCharging=false; mDarkMode=true
+09-25 20:50:57.078: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:50:57.097: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): Exception when calling getInstantAppLaunchData
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): Dv: 19500: Not an instant app
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at Gz.a(SourceFile:3)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at Gr.a(SourceFile:7)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at com.google.android.gms.common.api.internal.BasePendingResult.c(SourceFile:136)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at com.google.android.gms.common.api.internal.BasePendingResult.a(SourceFile:97)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at KY.a(SourceFile:2)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at KT.onTransact(SourceFile:32)
+09-25 20:50:57.456: E/cr_InstantAppsHandlerI(30941): 	at android.os.Binder.execTransact(Binder.java:567)
+09-25 20:50:58.600: I/subsystem_ramdump(32238): Usage:./system/bin/subsystem_ramdump [arg1] [arg2] [arg3]
+09-25 20:50:58.600: I/subsystem_ramdump(32238): [arg1]: (1/2) Ramdump location: 1: eMMC: /data/ramdump or 2: SD card: /sdcard/ramdump
+09-25 20:50:58.600: I/subsystem_ramdump(32238): [arg2]: (1/0) 1: Enable RPM log / 0: Disable RPM log
+09-25 20:50:58.600: I/subsystem_ramdump(32238): [arg3]: (1/0) 1: Enable qdss ramdump / 0: Disable qdss ramdump
+09-25 20:50:58.601: E/subsystem_ramdump(32238): Directory /sdcard/ramdump does not exist
+09-25 20:50:58.601: I/subsystem_ramdump(32238): Attemping to create /sdcard/ramdump
+09-25 20:50:58.601: E/subsystem_ramdump(32238): Unable to create /sdcard/ramdump
+09-25 20:50:58.601: E/subsystem_ramdump(32238): Unable to create /sdcard/ramdump
+09-25 20:50:58.601: E/subsystem_ramdump(32238): Failed to initialize ramdump
+09-25 20:50:58.589: W/subsystem_ramdu(32238): type=1400 audit(0.0:21323): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:58.589: W/subsystem_ramdu(32238): type=1400 audit(0.0:21324): avc: denied { search } for name="/" dev="sdcardfs" ino=1210049 scontext=u:r:subsystem_ramdump:s0 tcontext=u:object_r:sdcardfs:s0 tclass=dir permissive=0
+09-25 20:50:59.385: D/ThermalEngine(709): sensor_wait: xo_therm Wait done.
+09-25 20:50:59.387: D/ThermalEngine(709): sensor_monitor: xo_therm Reading 36000 .
+09-25 20:50:59.387: I/ThermalEngine(709): Sensor:xo_therm:36000 mC
+09-25 20:50:59.387: D/ThermalEngine(709): update_active_thresh: xo_therm Active(1), Hi(1) 39000, Lo(0) -2147483648, Interval(1) 10000
+09-25 20:50:59.387: D/ThermalEngine(709): sensor_monitor: xo_therm Sensor wait.
+09-25 20:50:59.387: D/ThermalEngine(709): sensor_wait: xo_therm Wait start. 10000ms
+09-25 20:50:59.714: W/cr_SpanAutocomplete(30941): Did not notify - ignored.
+09-25 20:51:00.020: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+09-25 20:51:00.021: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+09-25 20:51:00.021: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+09-25 20:51:00.021: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+09-25 20:51:00.022: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+09-25 20:51:00.022: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+09-25 20:51:00.022: I/MSM-irqbalance(850): Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+09-25 20:51:00.023: I/MSM-irqbalance(850): Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+09-25 20:51:00.045: D/EventNotificationJob(16844): Running EventNotificationJob, isDetail=true
+09-25 20:51:00.059: D/EventNotificationJob(16844):   finished processing events.
+09-25 20:51:00.104: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:51:00.107: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48
+09-25 20:51:00.107: D/WifiStateMachine(1582): updateCapabilities for config:TP-LINK_598Afalse,false
+09-25 20:51:00.113: D/StatusBar.NetworkController(1812): slot=-10;action=android.net.wifi.RSSI_CHANGED
+09-25 20:51:00.114: D/StatusBar.NetworkController(1812): updateNetworkName slotId=0 chosenNetType=10 mNetworkName=KYIVSTAR mNetworkTypeName=3G
+09-25 20:51:00.114: D/StatusBar.NetworkController(1812): updateNetworkName slotId=1 chosenNetType=3 mNetworkName=Vodafone UA mNetworkTypeName=3G
+09-25 20:51:00.878: I/chromium(30941): [INFO:CONSOLE(1)] "Manifest: Line: 1, column: 1, Unexpected token.", source: https://m.mobilluck.com.ua/v2/manifest.json (1)
+09-25 20:51:02.475: D/ClClient(16844): Not sending keepalive.  Current connection state=STOPPED
+09-25 20:51:03.114: D/wpa_supplicant(19946): wlan0: Control interface command 'SIGNAL_POLL'
+09-25 20:51:03.132: D/wpa_supplicant(19946): CTRL-DEBUG: global_ctrl_sock-sendto: sock=8 sndbuf=212992 outq=0 send_len=48

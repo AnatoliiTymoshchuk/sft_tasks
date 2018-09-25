@@ -1,0 +1,8 @@
+20:37:44.450 m.mobilluck.com.ua/:116 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:37:44.999 (index):307 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:37:46.046 manifest.json:1 Manifest: Line: 1, column: 1, Unexpected token.
+20:37:53.838 m.mobilluck.com.ua/:123 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:37:54.371 (index):311 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:37:55.365 manifest.json:1 Manifest: Line: 1, column: 1, Unexpected token.
+20:38:21.632 Navigated to https://m.mobilluck.com.ua/katalog/mobila/
+20:38:31.019 Navigated to https://m.mobilluck.com.ua/katalog/mobila/apple,asus/

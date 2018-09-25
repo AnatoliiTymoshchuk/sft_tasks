@@ -1,0 +1,7 @@
+20:39:52.450 (index):116 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:39:53.710 manifest.json:1 Manifest: Line: 1, column: 1, Unexpected token.
+20:40:00.032 m.mobilluck.com.ua/:115 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:40:00.468 (index):306 GET https://m.mobilluck.com.ua/v2/img/product/stars/.png 404 (Not Found)
+20:40:01.539 manifest.json:1 Manifest: Line: 1, column: 1, Unexpected token.
+01:47:29.442 Navigated to https://m.mobilluck.com.ua/katalog/mobila/
+01:47:37.190 Navigated to https://m.mobilluck.com.ua/katalog/mobila/sortby_bypdown/
